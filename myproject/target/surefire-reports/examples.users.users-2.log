@@ -1,0 +1,18 @@
+00:29:40.303 karate.env system property was: null 
+00:29:40.306 request:
+1 > GET http://localhost:8080/empresas
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.4)
+
+00:29:40.323 response time in milliseconds: 14,94
+1 < 200
+1 < Content-Type: application/json
+1 < Matched-Stub-Id: 925ebc9d-3048-4868-b709-ef23fdfbb054
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{"id":10,"enderecoId":10,"razaoSocial":"Danilo","fantasia":"Danilo","cnpj":"00000000000000","situacao":1,"email":"teste10@gmail.com","logradouro":"Rua Carolina Maria Ferreira","numero":"57","complemento":"casa","cep":"38406089","telefones":[],"dataCadastro":"10/10/2019","bairroId":1,"bairroNome":"Aclimação","cidadeId":1,"cidadeNome":"Uberlândia","estadoId":1,"estadoSigla":"MG","empresaMatrizId":null,"filiais":[]}
+
+00:29:40.326 status code was: 200, expected: 20, response time: 15, url: http://localhost:8080/empresas, response: {"id":10,"enderecoId":10,"razaoSocial":"Danilo","fantasia":"Danilo","cnpj":"00000000000000","situacao":1,"email":"teste10@gmail.com","logradouro":"Rua Carolina Maria Ferreira","numero":"57","complemento":"casa","cep":"38406089","telefones":[],"dataCadastro":"10/10/2019","bairroId":1,"bairroNome":"Aclimação","cidadeId":1,"cidadeNome":"Uberlândia","estadoId":1,"estadoSigla":"MG","empresaMatrizId":null,"filiais":[]}

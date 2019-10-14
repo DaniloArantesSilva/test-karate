@@ -1,0 +1,35 @@
+{
+   "request": {
+      "method": "GET",
+      "urlPattern": "/empresas"
+   },
+   "response": {
+      "status": 200,
+      "jsonBody": {
+         "id": 10,
+         "enderecoId": 10,
+         "razaoSocial": "Danilo",
+         "fantasia": "Danilo",
+         "cnpj": "00000000000000",
+         "situacao": 1,
+         "email": "teste10@gmail.com",
+         "logradouro": "Rua Carolina Maria Ferreira",
+         "numero": "57",
+         "complemento": "casa",
+         "cep": "38406089",
+         "telefones": [],
+         "dataCadastro": "10/10/2019",
+         "bairroId": 1,
+         "bairroNome": "Aclimação",
+         "cidadeId": 1,
+         "cidadeNome": "Uberlândia",
+         "estadoId": 1,
+         "estadoSigla": "MG",
+         "empresaMatrizId": null,
+         "filiais": []
+     },
+     "headers": {
+        "Content-Type": "application/json"
+     }
+   }
+}
